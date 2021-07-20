@@ -59,7 +59,7 @@ nav ul li, nav ul li a{
 
 /* about */
 .btn-download {
-    width: 100px;
+    width: 150px;
 
 }
 /* about */
@@ -102,13 +102,13 @@ footer {
 
 
 .circle-icons {
-    
+
 }
 
 .fa-facebook-f, .fa-google-plus-g,
 .fa-twitter, .fa-linkedin-in {
-    padding: 0;
-    margin: 0;
+
+    margin: 10px;
 }
 
 .fa-copyright {
