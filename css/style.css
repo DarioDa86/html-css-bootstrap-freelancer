@@ -1,3 +1,15 @@
+/* Colors */
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+
+
 /* header */
 
 header {
@@ -33,8 +45,8 @@ nav ul li {
     color: rgb(134, 134, 134);
     border-color: #fff;
     background-color: transparent;
+    margin-right: 12px;
 }
-
 /* /header */
 
 /* hero */
@@ -49,14 +61,32 @@ nav ul li {
     color: #fff;
 }
 
-.immagine-hero {
-    height: 150px;
-    width: 150px;
+.photo-avatar {
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    background-color: blueviolet;
 }
 
+.photo-avatar img {
+    width: 100%;
+}
 
+.star-divisory {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.fa-star {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.line-star {
+    height: 3px;
+    width: 100px;
+    border-radius: 3px;
+}
 
 .hero, .about {
     background-color: #1abc9c;
