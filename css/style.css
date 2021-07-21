@@ -62,23 +62,24 @@ nav ul li {
 }
 
 .photo-avatar {
-    height: 200px;
-    width: 200px;
+    width: 100%;
     border-radius: 50%;
 }
 
 .photo-avatar img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
 }
 
 .star-divisory {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 10px 0;
 }
 
 .fa-star {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 10px;
 }
 
