@@ -28,6 +28,7 @@ header {
     width: 100%;
     color: #fff;
     line-height: 80px;
+    z-index: 2;
 }
 
 nav ul li, nav ul li a{
@@ -107,11 +108,15 @@ nav ul li {
 
 /* portfolio */
 
-.immagine {
-    padding: 10px;
+.portfolio-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 0 10px;
 }
 
-.immagine img {
+.portfolio-item img {
     width: 100%;
     border-radius: 10px;
 }
@@ -119,6 +124,31 @@ nav ul li {
 .portfolio, .contact-me {
     margin: 30px 0;
 }
+
+.overlay-portfolio {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1abc9c;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.portfolio-item:hover > .overlay-portfolio {
+    display: flex;
+}
+
+.fa-plus {
+    font-size: 50px;
+    color: #fff;
+}
+
+
 /* portfolio */
 
 
@@ -172,13 +202,19 @@ footer {
 }
 
 
-.circle-icons {
 
+.circle-icon::after {
+    height: 15px;
+    width: 15px;
+    border: 1px #fff;
+    border-radius: 50%;
 }
 
 .fa-facebook-f, .fa-google-plus-g,
 .fa-twitter, .fa-linkedin-in {
     margin: 10px;
+    color: #fff;
+
 }
 
 .fa-copyright {

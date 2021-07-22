@@ -25,7 +25,7 @@
                     <nav class="col-6 text-end">
                         <!-- <button class="btn-menu d-sm-none"><i class="fas fa-bars"></i></button> -->
                         <button type="button" class="btn btn-primary btn-sm btn-menu d-sm-none"><i class="fas fa-bars"></i></button>
-                        <ul class="d-none d-sm-inline-block">
+                        <ul class="d-none d-sm-block">
                             <li><a href="#">PORTFOLIO</a></li>
                             <li><a href="#">ABOUT</a></li>
                             <li><a href="#">CONTACT</a></li>
@@ -68,23 +68,41 @@
                         </div>
                     </div>
                     <div class="row text-center justify-content-center">
-                        <div class="immagine col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio-item col-12 col-sm-6 col-lg-4">
                             <img src="./img/cabin.png" alt="">
+                            <div class="overlay-portfolio">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
-                        <div class="immagine col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio-item col-12 col-sm-6 col-lg-4">
                             <img src="./img/cake.png" alt="">
+                            <div class="overlay-portfolio">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
-                        <div class="immagine col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio-item col-12 col-sm-6 col-lg-4">
                             <img src="./img/circus.png" alt="">
+                            <div class="overlay-portfolio">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
-                        <div class="immagine col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio-item col-12 col-sm-6 col-lg-4">
                             <img src="./img/game.png" alt="">
+                            <div class="overlay-portfolio">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
-                        <div class="immagine col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio-item col-12 col-sm-6 col-lg-4">
                             <img src="./img/safe.png" alt="">
+                            <div class="overlay-portfolio">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
-                        <div class="immagine col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio-item col-12 col-sm-6 col-lg-4">
                             <img src="./img/submarine.png" alt="">
+                            <div class="overlay-portfolio">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -130,26 +148,27 @@
                                 <span><i class="fas fa-star"></i></span>
                                 <div class="line-star bg-black"></div>
                             </div>
-                            <!-- test form -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <input type="text" class="form-control" placeholder="Name">
-                                </div>
-                                <div class="col-12">
-                                    <input type="email" class="form-control" placeholder="Email adress">
-                                </div>
-                                <div class="col-12">
-                                    <input type="tel" class="form-control" placeholder="Phone number">
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control" placeholder="Message" id="floatingTextarea"></textarea>
-                                    <!-- <label for="floatingTextarea"></label> -->
-                                </div>
-                            </div>
-                            <!-- test form -->
-                            <button type="button" class="btn btn-sm btn-send">Send</i></button>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="email" class="form-control" placeholder="Email adress">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="tel" class="form-control" placeholder="Phone number">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control" placeholder="Message" id="floatingTextarea"></textarea>
+                                        <!-- <label for="floatingTextarea"></label> -->
+                                    </div>
+                                    <button type="button" class="btn btn-sm btn-send">Send</i></button>
+                                </div>  
+                            </div>                          
+                        </div>
                     </div>
-                </div>
+                </div>    
             </section>
             <!-- /contact me -->
 
@@ -168,12 +187,12 @@
                     <div class="foot-center col-sm-12 col-md-4 col-lg-3">
                         AROUND THE WEB
                         <div class="social-icons">
-                            <span class="circle-icon"><i class="fab fa-facebook-f"></i>
+                            <span class="circle-icon"><a href="#"><i class="fab fa-facebook-f"></i></a>
                             </span>
                             <span class="circle-icon">
                                 <i class="fab fa-google-plus-g"></i>
-                            </span
-                            ><span class="circle-icon">
+                            </span>
+                            <span class="circle-icon">
                                 <i class="fab fa-twitter"></i>
                             </span>
                             <span class="circle-icon">
@@ -191,7 +210,7 @@
             </div>
             <div class="row text-center ">
                 <div class="col-12 bottom-footer">
-                    Copyright <i class="far fa-copyright"></i> Your Website 2019
+                    <span>Copyright <i class="far fa-copyright"></i> Your Website 2019</span>
                 </div>
             </div>
         </footer>
