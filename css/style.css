@@ -179,6 +179,7 @@ textarea {
 .btn-send {
     color: #fff;
     background-color: #1abc9c;
+    width: auto;
 }
 /* footer */
 
